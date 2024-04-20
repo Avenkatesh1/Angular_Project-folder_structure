@@ -9,6 +9,7 @@ import { AdvanceComponent } from './Pages/advance/advance.component';
 import { LeavesComponent } from './Pages/leaves/leaves.component';
 import { SalaryComponent } from './Pages/salary/salary.component';
 import { EmpPipe } from './Shared/pipes/emp.pipe';
+import { DirectiveDirective } from './Shared/directives/directive.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EmpPipe } from './Shared/pipes/emp.pipe';
     AdvanceComponent,
     LeavesComponent,
     SalaryComponent,
-    EmpPipe
+    EmpPipe,
+    DirectiveDirective
   ],
   imports: [
     BrowserModule,
