@@ -8,6 +8,7 @@ import { AttendenceComponent } from './Pages/attendence/attendence.component';
 import { AdvanceComponent } from './Pages/advance/advance.component';
 import { LeavesComponent } from './Pages/leaves/leaves.component';
 import { SalaryComponent } from './Pages/salary/salary.component';
+import { EmpPipe } from './Shared/pipes/emp.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SalaryComponent } from './Pages/salary/salary.component';
     AttendenceComponent,
     AdvanceComponent,
     LeavesComponent,
-    SalaryComponent
+    SalaryComponent,
+    EmpPipe
   ],
   imports: [
     BrowserModule,
